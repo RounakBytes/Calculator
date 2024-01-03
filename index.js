@@ -26,7 +26,7 @@ const square = (x) => {
 };
 
 const areaOfCircle = (radius) => {
-  return Math.PI * square(x);
+  return Math.PI * square(radius);
 };
 
 function calculateFactorial(number) {
