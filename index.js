@@ -26,3 +26,12 @@ console.log(add(5, 10));
 console.log(substract(10, 5));
 console.log(multiply(25, 25));
 console.log(divide(5, 10));
+
+const celsiusToFahrenheit = convertTemperature(25, 'Celsius', 'Fahrenheit');
+console.log(`25 Celsius is equal to ${celsiusToFahrenheit} Fahrenheit`);
+
+const kelvinToCelsius = convertTemperature(300, 'Kelvin', 'Celsius');
+console.log(`300 Kelvin is equal to ${kelvinToCelsius} Celsius`);
+
+const fahrenheitToKelvin = convertTemperature(68, 'Fahrenheit', 'Kelvin');
+console.log(`68 Fahrenheit is equal to ${fahrenheitToKelvin} Kelvin`);
