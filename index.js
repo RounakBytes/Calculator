@@ -2,24 +2,27 @@ import { decimalToBinary } from "./converter";
 import { url } from "./server";
 
 const add = (x, y) => {
-  return x + y;
+    return x + y;
 };
 
 const substract = (x, y) => {
-  return x - y;
+    return x - y;
 };
 
 const multiply = (x, y) => {
-  return x * y;
+    return x * y;
 };
 
 const divide = (x, y) => {
-  if (y === 0) {
-    console.log("Cannot divide by zero");
-    return;
-  }
+    if (y === 0) {
+        console.log("Cannot divide by zero");
+        return;
+    }
 
-  return x / y;
+    return x / y;
+};
+const square = (x) => {
+    return x * x;
 };
 
 function calculateFactorial(number) {
