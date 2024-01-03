@@ -47,11 +47,11 @@ export function convertCurrency() {
     const fromAmount = parseFloat(document.getElementById("fromAmount").value);
     const fromCurrency = document.getElementById("fromCurrency").value;
 
-    // Define exchange rates (replace with actual rates)
+   
     const exchangeRates = {
-        USD: { EUR: 0.85, GBP: 0.75 },
-        EUR: { USD: 1.18, GBP: 0.88 },
-        GBP: { USD: 1.34, EUR: 1.14 },
+        USD: { EUR: 5.85, GBP: 15.75 },
+        EUR: { USD: 8.18, GBP: 6.88 },
+        GBP: { USD: 10.34, EUR: 19.14 },
     };
 
     // Check if the currencies are valid
