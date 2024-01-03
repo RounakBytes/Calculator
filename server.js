@@ -1,0 +1,1 @@
+export const url = 'www.google.com';
