@@ -1,3 +1,4 @@
+import { decimalToBinary } from "./converter";
 import { url } from "./server";
 
 const add = (x, y) => {
@@ -53,3 +54,5 @@ console.log(`300 Kelvin is equal to ${kelvinToCelsius} Celsius`);
 const fahrenheitToKelvin = convertTemperature(68, 'Fahrenheit', 'Kelvin');
 console.log(`68 Fahrenheit is equal to ${fahrenheitToKelvin} Kelvin`);
 console.log(calculateFactorial(50));
+
+console.log(decimalToBinary(50));

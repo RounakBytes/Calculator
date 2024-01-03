@@ -72,3 +72,17 @@ export function convertCurrency() {
             "Invalid currency selection.";
     }
 }
+export function decimalToBinary(decimal) {
+    let binary = "";
+    if (decimal === 0) {
+        return "0";
+    }
+  
+    while (decimal > 0) {
+        let remainder = decimal % 2;
+        binary = remainder.toString() + binary;
+        decimal = Math.floor(decimal / 2);
+    }
+  
+    return binary;
+  }
