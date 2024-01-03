@@ -1,3 +1,5 @@
+import { url } from "./server";
+
 const add = (x, y) => {
   return x + y;
 };
@@ -19,6 +21,7 @@ const divide = (x, y) => {
   return x / y;
 };
 
+console.log(url);
 console.log(add(5, 10));
 console.log(substract(10, 5));
 console.log(multiply(25, 25));
