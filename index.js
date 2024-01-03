@@ -27,6 +27,10 @@ console.log(substract(10, 5));
 console.log(multiply(25, 25));
 console.log(divide(5, 10));
 
+const areaInSquareMeters = 100; // Replace with your input value
+const convertedAreaInSquareFeet = convertArea(areaInSquareMeters, 'squareMeters', 'squareFeet');
+const convertedAreaInSquareYards = convertArea(areaInSquareMeters, 'squareMeters', 'squareYards');
+
 const celsiusToFahrenheit = convertTemperature(25, 'Celsius', 'Fahrenheit');
 console.log(`25 Celsius is equal to ${celsiusToFahrenheit} Fahrenheit`);
 
